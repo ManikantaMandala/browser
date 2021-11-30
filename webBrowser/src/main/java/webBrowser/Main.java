@@ -11,7 +11,7 @@ public class Main extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception{
         Parent root = FXMLLoader.load(getClass().getResource("sample.fxml"));
-        primaryStage.setTitle("Computer Networking Browser");
+        primaryStage.setTitle("Browser dynamics");
         primaryStage.setScene(new Scene(root, 800, 450));
         primaryStage.setFullScreen(true);
         primaryStage.show();
