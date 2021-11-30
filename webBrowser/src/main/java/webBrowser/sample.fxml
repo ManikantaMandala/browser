@@ -11,6 +11,7 @@
       <ToolBar prefHeight="40.0" prefWidth="200.0" style="-fx-background-color: #82ae67;" BorderPane.alignment="CENTER">
         <items>
           <Button mnemonicParsing="false" onAction="#go" style="-fx-background-color: #ae1111;" text="GO" textFill="WHITE" />
+           <Button mnemonicParsing="false" onAction="#FTPClient" style="-fx-background-color: #ae1111;" text="FTPClient" textFill="WHITE" />
             <TextField fx:id="addressBar" prefHeight="25.0" prefWidth="627.0" />
         </items>
       </ToolBar>
